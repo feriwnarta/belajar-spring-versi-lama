@@ -1,5 +1,9 @@
 package com.ferdev.belajarspring.dao;
 
-public class PersonDao {
+import com.ferdev.belajarspring.model.Person;
+import org.springframework.stereotype.Component;
+
+@Component
+public class PersonDao extends BaseDaoPerson<Person>{
 
 }

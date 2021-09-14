@@ -5,6 +5,7 @@ import net.bytebuddy.dynamic.loading.InjectionClassLoader;
 import javax.persistence.*;
 import java.io.Serializable;
 
+// kelas orm mapping ke database dgn hibernate
 @Entity
 @Table(name = "T_Person")
 public class Person implements Serializable {

@@ -16,8 +16,8 @@ public class MainHibernate {
         p1.setPassword("winartapwd@123");
 
         Person p2 = new Person();
-        p2.setNama("joko");
-        p2.setPassword("jko1@23");
+        p2.setNama("jokoTingkar");
+        p2.setPassword("jko1231@23");
 
         Session session = sessionFactory.openSession(); // buka sesi untuk session
 
